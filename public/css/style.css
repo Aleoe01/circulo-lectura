@@ -11,6 +11,53 @@
   padding-bottom: 10px;
 }
 
+.invitados {
+  background-color: rgba(233, 222, 222, 0.466);
+  border-radius: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.invitados h1 {
+  color: black;
+  font-size: 45px;
+}
+
+.fotoInvitado {
+  display: inline-block;
+}
+
+.invitados img {
+  border-radius: 25%;
+  position: relative;
+  padding: 7px;
+  top: -165px;
+}
+
+.nombreInvitado {
+  display: inline-block;
+  color: #212121;
+  position: relative;
+  text-align: justify;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.nombreInvitado h3 {
+  font-size: 30px;
+  color: black;
+}
+
+.nombreInvitado p {
+  padding: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.nombreInvitado h5 {
+  color: #000;
+}
+
 .splash h1 {
   color: black;
   font-size: 45px;
@@ -147,6 +194,13 @@ section li {
   text-align: left;
 }
 
+#textoInvitados {
+  background-color: rgba(233, 222, 222, 0.466);
+  border-radius: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .lista {
   text-align: start;
 }
@@ -202,6 +256,16 @@ footer {
 
 footer p {
   padding-top: 4px;
+}
+
+.videoCompu {
+  display: none;
+}
+
+.videoCelu {
+  display: flex;
+  max-width: 100%;
+  height: auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -287,5 +351,15 @@ footer p {
   }
   .centro {
     padding-left: 0px !important;
+  }
+
+  .videoCelu {
+    display: none;
+  }
+
+  .videoCompu {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
