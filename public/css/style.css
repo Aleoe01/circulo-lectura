@@ -31,7 +31,6 @@
   border-radius: 25%;
   position: relative;
   padding: 7px;
-  top: -165px;
 }
 
 .nombreInvitado {
@@ -323,6 +322,13 @@ footer p {
     padding-left: 8px;
     padding-right: 8px;
     text-align: left;
+  }
+
+  .invitados img {
+    border-radius: 25%;
+    position: relative;
+    padding: 7px;
+    top: -165px;
   }
 
   .lista {
