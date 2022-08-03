@@ -1,4 +1,4 @@
-.body {
+body {
   width: 100%;
   background: url(../images/fondo.jpg);
   background-size: cover;
@@ -6,87 +6,72 @@
   font-family: "Roboto", sans-serif;
 }
 
-#titulo {
+.titulo {
+  background-color: rgba(177, 177, 177, 0.397);
   padding: 30px;
   padding-bottom: 10px;
 }
 
+.titulo h1 {
+  text-align: center;
+  font-weight: 300;
+}
+
+.titulo h1 a {
+  text-decoration: none;
+  color: #212121;
+}
+
+.titulo h1 a:hover {
+  color: rgb(38, 99, 38);
+}
+
+.splash__texto {
+  background-color: rgba(233, 222, 222, 0.466);
+  border-radius: 10px;
+  padding: 50px;
+  text-align: center;
+}
+
+.splash__texto h1 {
+  color: black;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.splash__texto p {
+  font-size: 1.8rem;
+  color: black;
+  font-weight: 400;
+  padding: 5px 15px;
+}
+
+.responsables img {
+  width: 100%;
+}
+
 .invitados {
   background-color: rgba(233, 222, 222, 0.466);
-  border-radius: 5%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 35px 0;
 }
 
-.invitados h1 {
+.invitados__titulo h1 {
   color: black;
   font-size: 45px;
-}
-
-.fotoInvitado {
-  display: inline-block;
 }
 
 .invitados img {
-  border-radius: 25%;
-  position: relative;
-  padding: 7px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-.nombreInvitado {
-  display: inline-block;
-  color: #212121;
-  position: relative;
-  text-align: justify;
-  margin-left: 20px;
-  margin-top: 20px;
-}
 
-.nombreInvitado h3 {
-  font-size: 30px;
-  color: black;
-}
-
-.nombreInvitado p {
-  padding: 2px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.nombreInvitado h5 {
-  color: #000;
-}
-
-.splash h1 {
-  color: black;
-  font-size: 45px;
-}
-
-.splash p {
-  color: black;
-}
 
 header {
   padding: 8px;
 }
 
-#titulo {
-  background-color: rgba(177, 177, 177, 0.397);
-}
-
-#titulo h1 {
-  text-align: center;
-  font-weight: 300;
-}
-
-#titulo h1 a {
-  text-decoration: none;
-  color: #212121;
-}
-
-#titulo h1 a:hover {
-  color: rgb(38, 99, 38);
-}
 
 nav ul {
   text-align: center;
@@ -108,20 +93,6 @@ nav ul li a {
   text-transform: uppercase;
 }
 
-#textoPrincipal {
-  background-color: rgba(233, 222, 222, 0.466);
-  border-radius: 5%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-#textoPrincipal h1 {
-  font-weight: 700;
-}
-
-#textoPrincipal p {
-  font-weight: 400;
-}
 
 #textoClases h2 {
   color: black;
@@ -215,6 +186,10 @@ section li {
 .card {
   background-color: #ffffff91 !important;
   margin: 8px !important;
+}
+
+.card img {
+  width: 100%;
 }
 
 section {
@@ -325,10 +300,7 @@ footer p {
   }
 
   .invitados img {
-    border-radius: 25%;
-    position: relative;
-    padding: 7px;
-    top: -165px;
+    
   }
 
   .lista {
