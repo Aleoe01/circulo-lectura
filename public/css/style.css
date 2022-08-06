@@ -145,6 +145,11 @@ section li {
   color: #2d801c;
 }
 
+
+
+
+
+
 #textoTemario {
   background-color: rgba(233, 222, 222, 0.466);
   border-radius: 2%;
@@ -210,6 +215,27 @@ section {
 
 #contenedorPdf {
   padding: 10px;
+}
+
+.clase3 {
+  height: 40vh;
+  padding-bottom: 5px;
+}
+
+.clase3 .container-lg {
+  height: 100%;
+}
+
+.clase3__ppt {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clase3__ppt iframe {
+    height: 100%;
+    width: 100%;
 }
 
 .compu {
@@ -340,4 +366,43 @@ footer p {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+  /* CLASE 3 MOBILE */
+
+  .clase3 {
+    height: 100vh;
+    padding-bottom: 5px;
+  }
+  
+  .clase3 .container-lg {
+    height: 100%;
+  }
+  
+  .clase3__ppt {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .clase3__ppt iframe {
+      height: 90%;
+      width: 77%;
+  }
+  
+  .carrusel {
+    height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .carrusel__contenedor {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  
 }
